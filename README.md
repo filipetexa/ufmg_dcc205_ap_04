@@ -1,4 +1,4 @@
-# AP_04 - Dedbuging with GPD
+# AP_04 - Dedbuging with GBD
 ## Especificações
 Nesta atividade prática você vai depurar códigos utilizando as ferramentas gdb e valgrind.
 Para cada código disponibilizado, faça o seguinte:
