@@ -1,0 +1,3 @@
+O erro ocorre devido ao acesso fora dos limites da memória alocada. O código aloca um array de 10 inteiros com malloc, mas o loop for itera até 10, acessando a[10], que está fora do espaço alocado (0 a 9).
+
+Isso causa comportamento indefinido e pode resultar em falhas. Ferramentas como Valgrind ajudam a detectar esses erros, como mostrado pela mensagem de "Invalid write" ao acessar a[10].
